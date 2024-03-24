@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Emerson Warhman",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.19.1"
+  },
+  "devDependencies": {
+    "mongoose": "8.2.3"
+  }
+}
