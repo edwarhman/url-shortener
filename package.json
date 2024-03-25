@@ -6,12 +6,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js"
   },
   "author": "Emerson Warhman",
   "license": "MIT",
   "dependencies": {
-    "express": "4.19.1"
+    "express": "4.19.1",
+    "nanoid": "^5.0.6"
   },
   "devDependencies": {
     "mongoose": "8.2.3"
